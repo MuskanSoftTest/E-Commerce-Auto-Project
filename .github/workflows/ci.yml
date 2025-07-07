@@ -2,9 +2,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, E_Commerce_Web_Features ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, E_Commerce_Web_Features ]
 
 jobs:
   build:
