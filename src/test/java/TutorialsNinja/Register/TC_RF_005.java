@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class RC_RF_004 {
+public class TC_RF_005 {
 
 	@Test
 	public void verifyRegisteringAccountBySubscribingNewsLetter() {
@@ -28,14 +28,14 @@ public class RC_RF_004 {
 		driver.findElement(By.xpath("//input[@id='input-telephone']")).sendKeys("9009899098");
 		driver.findElement(By.xpath("//input[@id='input-password']")).sendKeys("pass1234");
 		driver.findElement(By.xpath("//input[@id='input-confirm']")).sendKeys("pass1234");
-		driver.findElement(By.xpath("//label[normalize-space()='Yes']")).click();
+		driver.findElement(By.xpath("//label[normalize-space()='No']")).click();
 		driver.findElement(By.xpath("//input[@name='agree']")).click();
         driver.findElement(By.xpath("(//input[@value='Continue'])[1]")).click();
 		driver.findElement(By.linkText("Continue")).click();
 		driver.findElement(By.xpath("(//a[normalize-space()='Subscribe / unsubscribe to newsletter'])[1]")).click();
 		
 		Assert.assertTrue(driver.findElement(By.xpath("(//a[normalize-space()='Newsletter'])[1]")).isDisplayed());
-		Assert.assertTrue(driver.findElement(By.xpath("(//input[@value='1'])[1]")).isSelected());
+		Assert.assertTrue(driver.findElement(By.xpath("(//input[@value='0'])[1]")).isSelected());
 		
 		driver.quit();
 	
