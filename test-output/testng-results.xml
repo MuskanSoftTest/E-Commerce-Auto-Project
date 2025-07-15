@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T18:48:39 IST" name="Default suite" finished-at="2025-07-14T18:48:53 IST" duration-ms="13390">
+  <suite started-at="2025-07-15T18:57:10 IST" name="Default suite" finished-at="2025-07-15T18:57:20 IST" duration-ms="10413">
     <groups>
     </groups>
-    <test started-at="2025-07-14T18:48:39 IST" name="Default test" finished-at="2025-07-14T18:48:53 IST" duration-ms="13390">
-      <class name="TutorialsNinja.Register.TC_RF_005">
-        <test-method signature="verifyRegisteringAccountBySubscribingNewsLetter()[pri:0, instance:TutorialsNinja.Register.TC_RF_005@7e6f74c]" started-at="2025-07-14T18:48:39 IST" name="verifyRegisteringAccountBySubscribingNewsLetter" finished-at="2025-07-14T18:48:53 IST" duration-ms="13322" status="PASS">
+    <test started-at="2025-07-15T18:57:10 IST" name="Default test" finished-at="2025-07-15T18:57:20 IST" duration-ms="10413">
+      <class name="TutorialsNinja.Register.TC_RF_006">
+        <test-method signature="verifyingNavigatingRegisterAccountWithMultipleWays()[pri:0, instance:TutorialsNinja.Register.TC_RF_006@44c03695]" started-at="2025-07-15T18:57:10 IST" name="verifyingNavigatingRegisterAccountWithMultipleWays" finished-at="2025-07-15T18:57:20 IST" duration-ms="10367" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisteringAccountBySubscribingNewsLetter -->
-      </class> <!-- TutorialsNinja.Register.TC_RF_005 -->
+        </test-method> <!-- verifyingNavigatingRegisterAccountWithMultipleWays -->
+      </class> <!-- TutorialsNinja.Register.TC_RF_006 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

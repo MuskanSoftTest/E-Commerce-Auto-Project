@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class TC_RF_005 {
 
 	@Test
-	public void verifyRegisteringAccountBySubscribingNewsLetter() {
+	public void verifyRegisteringAccountBySayingNoToNewsLetter() {
 		// TODO Auto-generated method stub
 		
 		WebDriver driver = new ChromeDriver();
